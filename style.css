@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: #fff;
+}
+
+.navbar {
+  background: #DD1414;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 120px;
+}
+
+.logo {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 3vh;
+  left: 1vh;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+}
+
+.logo:hover img {
+  scale: 1.1;
+}
+
+.logo img {
+  object-fit: center;
+  height: 136px;
+  display: flex;
+  justify-self: center;
+  transition: all ease 0.8s;
+  
+}
+
+.logoone img {
+  height: 120px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  mix-blend-mode: lighten;
+}
+
+#nav {
+  height: 10vh;
+}
+
+.nav-links {
+  position: absolute;
+  right: 2%;
+  padding: 0.5vh;
+}
+
+.nav-links ul {
+  display: flex;
+  width: 20%;
+}
+
+.nav-links a {
+  color: #000;
+  font-weight: 300;
+  padding: 0.4rem;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.nav-links a:hover {
+  background: #E21818;
+  color: #fff;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  justify-self: center;
+  
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10 {
+  height: 30vh;
+  width: 40vw;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.13);
+  object-fit: center;
+  overflow: hidden;
+}
+
+.div1 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div1:hover img {
+  scale: 1.3;
+}
+
+.div2 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div2:hover img {
+  scale: 1.3;
+}
+
+.div3 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div3:hover img {
+  scale: 1.3;
+}
+
+.div4 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div4:hover img {
+  scale: 1.3;
+}
+
+.div5 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div5:hover img {
+  scale: 1.3;
+}
+
+.div6 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div6:hover img {
+  scale: 1.3;
+}
+
+.div7 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div7:hover img {
+  scale: 1.3;
+}
+
+.div8 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div8:hover img {
+  scale: 1.3;
+}
+
+.div9 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div9:hover img {
+  scale: 1.3;
+}
+
+.div10 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div10:hover img {
+  scale: 1.3;
+}
+
+.div img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div10:hover img {
+  scale: 1.3;
+}
+
+.div12 img {
+  height: 30vh;
+  width: 40vw;
+  transition: all ease 0.8s;
+}
+
+.div12:hover img {
+  scale: 1.3;
+}
+
+.text h2 {
+  font-weight: 500;
+  padding: 2vh;
+  color: #DD1414;
+}
+
+.text p {
+  font-weight: 200;
+  padding: 0vh 3vh;
+  color: #857B7B;
+}
+
+.text h3 {
+  font-weight: 400;
+  padding: 4vh;
+  text-align: center;
+  color: #DD1414;
+}
+
+.homepageimg {
+  height: 60vh;
+  width: 100vw;
+  top: 40vh;
+  position: absolute;
+}
+
+.homepage img {
+  width: 100%;
+  height: 100%;
+  transition: all ease 0.8s;
+}
+
+.homepage:hover img {
+  scale: 1.2;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
+
+.gender {
+  display: flex;
+  gap: 10px;
+}
+
+#boy,
+#girl {
+  font-weight: 400;
+  text-align: center;
+  border: 2px solid #DD1414;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+#boy a,
+#girl a {
+  display: block;
+  padding: 0.8vh 2vh;
+  color: #DD1414;
+  text-decoration: none;
+}
+
+#boy:hover,
+#girl:hover {
+  background: #DD1414;
+}
+
+#boy:hover a,
+#girl:hover a {
+  color: white;
+}
+
+.option h1 {
+  font-weight: 400;
+  text-align: center;
+  color: #DD1414;
+  font-size: 1.8em;
+}
+
+
+#random {
+  background: #fff;
+  height: 500px;
+}
+
+.footer {
+  text-align: center;
+  color: darkgrey;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-top: 1px solid #eee;
+}
+
+.footer h1,
+.footer h3 {
+  font-family: fantasy;
+}
+
+.footer h1:hover,
+.footer h3:hover {
+  color: #DD1414;
+}
+
+.footer-app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.footer-app div {
+  height: 50px;
+  width: 50px;
+  margin: 0px 10px;
+  box-shadow: 0 0 2px 1px lightgrey;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkgrey;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.footer-app div:hover {
+  background-color: #DD1414;
+  color: white;
+}
